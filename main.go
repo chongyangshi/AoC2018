@@ -32,7 +32,7 @@ func main() {
 
 	fmt.Printf("Executing solution for Day %s \r\n", *runSolution)
 	results, execTime := solutions.RunSolution(*runSolution, inputString)
-	fmt.Printf("Completed in %v seconds, output: %s\r\n", execTime.Seconds(), results)
+	fmt.Printf("Completed in %v seconds, output: \n%s\r\n", execTime.Seconds(), results)
 
 	return
 }
