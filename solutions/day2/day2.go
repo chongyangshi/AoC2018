@@ -62,10 +62,10 @@ func part2(inputLines []string) string {
 			}
 			textDistance := 0
 			lastMismatchIndex := 0
-			for k, c := range line1 {
-				if line2[k] != byte(c) {
+			for n, c := range line1 {
+				if line2[n] != byte(c) {
 					textDistance++
-					lastMismatchIndex = k
+					lastMismatchIndex = n
 				}
 				if textDistance == 2 {
 					break
