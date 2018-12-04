@@ -9,9 +9,6 @@ import (
 	"time"
 )
 
-var eventsByDay = map[string][]int{}
-var guardSchedule = map[int64][]string{}
-var dateToGuard = map[string]int64{}
 var totalSleepByGuard = map[int64]int{}
 var minuteCounterByGuard = map[int64]map[int]int{}
 
@@ -26,6 +23,9 @@ func Run(input string) string {
 }
 
 func process(inputLines []string) {
+	var eventsByDay = map[string][]int{}
+	var guardSchedule = map[int64][]string{}
+	var dateToGuard = map[string]int64{}
 	for _, line := range inputLines {
 		lineSplit := strings.Split(strings.Trim(line, " "), " ")
 
