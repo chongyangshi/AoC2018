@@ -7,6 +7,7 @@ import (
 	"github.com/icydoge/AoC2018/solutions/day2"
 	"github.com/icydoge/AoC2018/solutions/day3"
 	"github.com/icydoge/AoC2018/solutions/day4"
+	"github.com/icydoge/AoC2018/solutions/day5"
 )
 
 var runMap = map[string]interface{}{
@@ -14,6 +15,7 @@ var runMap = map[string]interface{}{
 	"2": day2.Run,
 	"3": day3.Run,
 	"4": day4.Run,
+	"5": day5.Run,
 }
 
 func RunSolution(solution string, input string) (string, time.Duration) {
