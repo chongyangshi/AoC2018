@@ -3,11 +3,11 @@ package solutions
 import (
 	"time"
 
-	"github.com/icydoge/AoC2018/solutions/day1"
-	"github.com/icydoge/AoC2018/solutions/day2"
-	"github.com/icydoge/AoC2018/solutions/day3"
-	"github.com/icydoge/AoC2018/solutions/day4"
-	"github.com/icydoge/AoC2018/solutions/day5"
+	"github.com/chongyangshi/AoC2018/solutions/day1"
+	"github.com/chongyangshi/AoC2018/solutions/day2"
+	"github.com/chongyangshi/AoC2018/solutions/day3"
+	"github.com/chongyangshi/AoC2018/solutions/day4"
+	"github.com/chongyangshi/AoC2018/solutions/day5"
 )
 
 var runMap = map[string]interface{}{

@@ -8,7 +8,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/icydoge/AoC2018/solutions"
+	"github.com/chongyangshi/AoC2018/solutions"
 )
 
 func main() {
